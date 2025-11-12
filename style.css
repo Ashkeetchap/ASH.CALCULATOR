@@ -68,5 +68,44 @@ body {
     color: #007acc;
     text-shadow: 0 0 6px rgba(0, 122, 204, 0.3);
   }
+/* 📱 Responsive Design */
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  }
+
+  .calculator {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons button {
+    width: 80%;
+    margin: 8px 0;
+    font-size: 20px;
+  }
+
+  input {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  #result {
+    font-size: 18px;
+  }
+
+  .creator {
+    font-size: 14px;
+  }
+}
+
+
   
+
     
